@@ -1,0 +1,7 @@
+all:
+  hosts:
+    172.31.8.188:
+  vars:    
+    ansible_ssh_private_key_file: "~/.ssh/dev-id-rsa"
+    ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    ansible_user: ubuntu
